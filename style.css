@@ -7,7 +7,7 @@
 .container {
     width: 100%;
     height: 100vh;
-    background-image: linear-gradient(rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 0.7)),url(ima/IMG_5009.JPG);/*фоновая картинка и разметка*/
+    background-image: linear-gradient(rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 0.7)),url(https://sun9-77.userapi.com/impg/VZzNSGJkGKEkzE9WgqvAVoK6PYTkTgC54mD2wg/mYnn47sOHaM.jpg?size=2560x1440&quality=95&sign=13059e7746ed65adf38b77557e78c81d&type=album);/*фоновая картинка и разметка*/
     background-position: center;
     background-size: cover;
     padding-left: 8%;
