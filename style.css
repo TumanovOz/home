@@ -1,0 +1,128 @@
+* {
+    margin: 0;
+    padding: 0;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+}
+
+.container {
+    width: 100%;
+    height: 100vh;
+    background-image: linear-gradient(rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 0.7)),url(ima/IMG_5009.JPG);/*фоновая картинка и разметка*/
+    background-position: center;
+    background-size: cover;
+    padding-left: 8%;
+    padding-right: 8%;
+    box-sizing: border-box;
+}
+
+.navbar {
+    height: 12%;
+    display: flex;
+    align-items: center;
+}
+
+.logo {
+    width: 50px;
+    cursor: pointer;
+}
+
+.menu-icon {
+    width: 30px;
+    cursor: pointer;
+    margin-left: 40px;
+}
+
+nav {
+    flex: 1;
+    text-align: right;
+}
+
+nav ul li {
+    list-style: none;
+    display: inline-block;
+    margin-left: 60px;
+}
+
+nav ul li a {
+    text-decoration: none;
+    color: #fff;
+    font-size: 13px;
+}
+
+.row {
+    display: flex;
+    height: 88%;
+    align-items: center;
+}
+
+.col {
+    flex-basis: 50%;
+}
+
+h1 {
+    color: #fff;
+    font-size: 90px;
+}
+
+p {
+    color: #fff;
+    font-size: 20px;
+    line-height: 20px;
+}
+
+button {
+    width: 180px;
+    color: #000;
+    font-size: 12px;
+    padding: 12px 0;
+    background: #fff;
+    border: 0;
+    border-radius: 20px;
+    outline: none;
+    margin-top: 30px;
+}
+
+.card {
+    width: 200px;
+    height: 230px;
+    display: inline-block;
+    border-radius: 10px;
+    padding: 15px 25px;
+    box-sizing: border-box;
+    cursor: pointer;
+    margin: 10px 15px;
+
+    background-position: center;
+    background-size: cover;
+    transition: transform 0.3s;
+}
+
+.card1 {
+    background-image: url(https://sun9-21.userapi.com/impg/UjJy6iZBfCmRHBPS0KX3xUCOolB0OsIXlfmUjg/f3dphI9c7gM.jpg?size=1215x2160&quality=95&sign=f07afe09d9b5cf6d778645914c4dbcde&type=album);
+}
+
+.card2 {
+    background-image: url(https://sun9-60.userapi.com/impg/jFxsWmrGxaBI21-0z7NhUNTvED3sq8epAsv9Ww/rnUgx5kG_LQ.jpg?size=1215x2160&quality=95&sign=8a1f66f10711542393c5839306d28c76&type=album);
+}
+
+.card3 {
+    background-image: url(ima/2023-07-16\ 10-02-05.jpg);
+}
+
+.card4 {
+    background-image: url(https://sun9-77.userapi.com/impg/OmWfR_1hs3AzEN9ajZhYHFc7Vx1ZFtNOIlARcw/nnfyt8dN7Ps.jpg?size=1215x2160&quality=95&sign=63c429d150ec61db79f6723da78833b9&type=album);
+}
+
+.card:hover {
+    transform: translateY(-10px);
+}
+
+h5 {
+    color: #fff;
+    text-shadow: 0 0 5px #999;
+}
+
+.card p {
+    text-shadow: 0 0 15px #999;
+    font-size: 8px;
+}
